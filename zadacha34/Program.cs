@@ -34,7 +34,7 @@ int FindEvenInArray(int[] ArrayToSeek)
 }
 
 int ArraySize = 0;
-ArraySize = new Random().Next(1, 1000);
+ArraySize = new Random().Next(1, 10);
 Console.Clear();
 
 int[] Array = new int[ArraySize];
